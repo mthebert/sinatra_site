@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'sass'
 # using slim instead of erb
 require 'slim'
 # uncomment below to automatically reload on changes in dev
@@ -8,6 +9,9 @@ require 'sinatra/reloader' if development?
 # otherwise default is public and views
 # set :public_folder, 'assets'
 # set :views, 'templates'
+
+# this is for sass
+get('/styles.css'){ scss :styles }
 
 get '/' do 
 	slim :home

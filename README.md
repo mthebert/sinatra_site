@@ -7,9 +7,9 @@ Using:
 	- Ruby
 	- Sinatra
 	- Slim
-	- CSS
+	- Sass
 
-Notes: Changed from ERB to Slim
+Notes: Changed from ERB to Slim, added Sass
 
 [Matt Thebert](matt@thebert.com)
 
