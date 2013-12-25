@@ -11,4 +11,6 @@ Using:
 
 Notes: Changed from ERB to Slim
 
-[Matt Thebert] (matt@thebert.com)
+[Matt Thebert](matt@thebert.com)
+
+This code is being pushed to heroku - [launch it](http://obscure-citadel-5269.herokuapp.com)
