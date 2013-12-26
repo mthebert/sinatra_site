@@ -1,9 +1,9 @@
 require 'sinatra'
+require 'sinatra/reloader' if development?
+require './song'
 require 'sass'
 # using slim instead of erb
 require 'slim'
-# uncomment below to automatically reload on changes in dev
-require 'sinatra/reloader' if development?
 
 # optional if you want to change locations
 # otherwise default is public and views
